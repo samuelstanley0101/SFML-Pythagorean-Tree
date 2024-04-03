@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = --std=c++17 -Wall -Werror -pedantic -g
-LIB = -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -lboost_unit_test_framework
+LIB = -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
 # Your .hpp files
 DEPS = PTree.hpp SquareShape.hpp
 # Your compiled .o files
